@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Home page</title>
+
+    <link rel="stylesheet" href="Menu.css" />
+    <link rel="stylesheet" href="Forms.css" />
+  </head>
+
+  <body>
+    <nav>
+      <a class="Menu" href="Homepage.html">Home</a>
+      <a class="Menu" href="Buttons.html">Buttons</a>
+      <a class="Menu" href="Images.html">Images</a>
+      <a class="Menu" href="Tables.html">Tables</a>
+      <a class="Menu" href="Lists.html">Lists</a>
+      <a class="Menu" href="Iframes.html">Iframes</a>
+      <a class="Menu" href="">Forms</a>
+      <a class="Menu" href="Layouts.html">Layouts</a>
+      <a class="Menu" href="Menus.html">Menus</a>
+    </nav>
+
+    <h1>With forms you can collect data from users!</h1>
+
+    <form id="form" action="Backend.html">
+      <label for="firstname">Your first name</label><br />
+      <input
+        size="40"
+        type="text"
+        id="firstname"
+        name="user_name"
+      /><br /><br />
+
+      <label for="surname">Your surname</label><br />
+      <input
+        disabled
+        type="text"
+        id="surname"
+        name="user_surname"
+      /><br /><br />
+
+      <label for="email">Your E-mail </label> <br />
+      <input autofocus type="email" id="email" name="user_email" /><br /><br />
+
+      <label for="password">Your password</label><br />
+      <input
+        type="text"
+        id="password"
+        name="user_password"
+        maxlength="10"
+        minlength="4"
+      /><br /><br />
+
+      <label for="tel">Your phone number</label><br />
+      <input
+        suggestion
+        type="tel"
+        id="tel"
+        name="user_tel"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+      /><br /><br />
+
+      <label for="link">Your link</label><br />
+      <input type="text" id="link" name="user_link" /><br /><br />
+
+      <label for="age">Your age</label><br />
+      <input
+        type="number"
+        id="age"
+        name="user_age"
+        min="18"
+        max="67"
+      /><br /><br />
+
+      <label for="profession">Your profession</label><br />
+      <select name="user_profession" id="profession">
+        <option value="Front-End">Front-End</option>
+        <option value="Back-End">Back-End</option>
+        <option value="Full-stack">Full-stack</option>
+        <option value="Network-security">Network-security</option>
+        <option value="Network-admin">Network-admin</option></select
+      ><br /><br />
+
+      <label for="languages">Languages you knows:</label><br />
+      <select name="coding_languages" id="languages" multiple>
+        <option>JavaScript</option>
+        <option>Python</option>
+        <option>C++</option></select
+      ><br /><br />
+
+      <label for="os">Your favorite OS:</label><br />
+      <input list="favos" id="os" name="fav_os" />
+      <datalist id="favos">
+        <option value="Linux"></option>
+        <option value="Windows"></option>
+        <option value="MacOS"></option></datalist
+      ><br /><br />
+
+      <label for="favcolor">Your favorite color:</label><br />
+      <input type="color" id="favcolor" name="fav_color" /><br /><br />
+
+      <label for="userrate">Yoor rate:</label><br />
+      <input
+        step="10"
+        type="range"
+        id="userrate"
+        name="user_rate"
+      /><br /><br />
+
+      <label for="birthday">Date of birth:</label><br />
+      <input type="date" id="birthday" name="user_birthday" /><br /><br />
+
+      <label for="workhours">Working hours:</label><br />
+      From:<input type="time" name="working_hour_from" id="workhours" />To:
+      <input type="time" name="working_hour_to" id="workhours" /><br /><br />
+
+      <label for="experience">Work experience:</label><br />
+      From:
+      <input type="text" id="experience" name="user_experience_from" /> To:
+      <input
+        type="text"
+        id="experience"
+        name="user_experience_to"
+      /><br /><br />
+
+      <label for="favmoment">Your favorite moment:</label><br />
+      <input
+        type="datetime-local"
+        id="favmoment"
+        name="fav_moment"
+      /><br /><br />
+
+      <label for="favweek">Your favorite week:</label><br />
+      <input type="text" id="favweek" name="fav_week" /><br /><br />
+
+      <label for="CV">Your CV:</label><br />
+      <input type="file" id="CV" name="user_cv" /><br /><br />
+
+      <label for="gender">Your gender:</label><br />
+      <input checked type="radio" id="gender" name="user_gender" value="male" />
+      <label for="gender">Male</label>
+
+      <input
+        checked
+        type="radio"
+        id="gender"
+        name="user_gender"
+        value="female"
+      />
+      <label for="gender">Female</label><br /><br />
+
+      <label for="">Languages you can speak:</label><br />
+
+      <label for="languages">Azerbaijanian</label>
+      <input
+        type="checkbox"
+        id="languages"
+        name="user_language"
+        value="az"
+      /><br />
+
+      <label for="languages">English</label>
+      <input
+        type="checkbox"
+        id="languages"
+        name="user_language"
+        value="en"
+      /><br />
+
+      <label for="languages">Russian</label>
+      <input
+        type="checkbox"
+        id="languages"
+        name="user_language"
+        value="ru"
+      /><br /><br />
+
+      <label for="">Your message:</label><br />
+      <textarea rows="10" cols="100" readonly>Here is your message!</textarea>
+
+      <br /><br />
+
+      <fieldset>
+        <legend>Form Buttons</legend>
+
+        <input
+          value="Submit with input"
+          type="submit"
+          name="sub_w_input"
+          id="sub_w_input"
+        />
+
+        <input
+          value="Reset with input"
+          type="reset"
+          name="reset_w_input"
+          id="reset_w_input"
+        />
+        <br /><br />
+
+        <button type="submit">Submit with button</button>
+        <button type="reset">Reset with button</button> <br /><br />
+
+        <form class="inlnblck" action="https://www.w3schools.com/">
+          <input
+            value="Submit to W3Schools"
+            type="submit"
+            name="submit_w3"
+            id="w3"
+          />
+        </form>
+
+        <form class="inlnblck" action="Forms.html">
+          <input value="Submit to current page" type="submit" name="" id="" />
+        </form>
+        <br />
+        <br />
+
+        <form class="inlnblck" action="">
+          <input
+            value="Submit with validate"
+            type="submit"
+            name="submit_with_validate"
+            id="submit_with_validate"
+          />
+        </form>
+
+        <form novalidate class="inlnblck" action="">
+          <input
+            value="Submit without validate"
+            type="submit"
+            name="submit_without_validate"
+            id="submit_without_validate"
+          />
+        </form>
+        <br />
+        <br />
+
+        <form method="get" class="inlnblck" action="">
+          <input
+            value="Submit with GET method "
+            type="submit"
+            name="submit_with_get"
+            id="submit_with_get"
+          />
+        </form>
+
+        <form method="post" class="inlnblck" action="">
+          <input
+            value="Submit with POST method "
+            type="submit"
+            name="submit_with_post"
+            id="submit_with_post"
+          />
+        </form>
+      </fieldset>
+      <br />
+      <br />
+
+
+    </form>
+
+  </body>
+</html>

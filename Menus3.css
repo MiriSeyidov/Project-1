@@ -1,0 +1,14 @@
+body {
+    background-color: lightgreen;
+}
+nav {
+    background-color: green;
+    display: flow-root;
+}
+a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    
+}

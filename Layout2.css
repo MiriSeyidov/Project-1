@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+
+div {
+    float: left;
+    display: inline-block;
+}
+
+div.d1 {
+   background-color: red;
+   width: 100%;
+   padding: 20px;
+}
+
+
+div.d2 {
+    width:100%
+    
+
+}
+
+div.d3 {
+   background-color: blue;
+   width: 35%;
+   padding: 50px;
+
+}
+
+div.d4 {
+    background-color: purple;
+    width: 65%;
+    padding: 40.3px;
+    
+}
+
+
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}

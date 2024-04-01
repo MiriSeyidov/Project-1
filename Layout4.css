@@ -1,0 +1,51 @@
+body {
+display: grid;
+grid-template-areas: 
+'H H'
+'A M'
+'F F'
+;
+}
+
+header {
+    grid-area: H;
+    background-color: red;
+}
+
+aside {
+    grid-area: A;
+    background-color: blue;
+}
+
+main {
+    grid-area: M;
+    background-color: purple;
+}
+
+footer {
+    grid-area: F;
+    background-color: green;
+}
+
+h3 {
+    padding-left: 8px;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+nav {
+    width: 100px;
+}
+
+article {
+    padding-left: 10px;
+}
+
+p{ text-align: center;}

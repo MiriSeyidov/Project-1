@@ -1,0 +1,18 @@
+li {
+    background-color: #5d4b32;
+    color: #f7efd2;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+ul {
+    background-color: #382814;
+    padding: 15px 20px 8px 40px;
+    border-radius: 8px;
+}
+
+ul.list2 {
+    list-style-type:armenian ;
+}

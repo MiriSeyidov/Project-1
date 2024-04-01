@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home page</title>
+
+    <link rel="stylesheet" href="Menu.css" />
+
+    <link rel="stylesheet" href="Tables.css" />
+  </head>
+
+  <body>
+    <nav>
+      <a class="Menu" href="Homepage.html">Home</a>
+      <a class="Menu" href="Buttons.html">Buttons</a>
+      <a class="Menu" href="Images.html">Images</a>
+      <a class="Menu" href="">Tables</a>
+      <a class="Menu" href="Lists.html">Lists</a>
+      <a class="Menu" href="Iframes.html">Iframes</a>
+      <a class="Menu" href="Forms.html">Forms</a>
+      <a class="Menu" href="Layouts.html">Layouts</a>
+      <a class="Menu" href="Menus.html">Menus</a>
+    </nav>
+
+    <h1>Introduce your data with well designed Tables!</h1>
+
+    <h2>Vertical table!</h2>
+
+    <table>
+      <caption>
+        Yearly salary table
+      </caption>
+
+      <thead class="a">
+        <tr>
+          <td colspan="2">Table name</td>
+          <td colspan="12">2023</td>
+        </tr>
+
+        <tr>
+          <td colspan="2">Seasons:</td>
+          <td colspan="2">Winter</td>
+          <td colspan="3">Spring</td>
+          <td colspan="3">Summer</td>
+          <td colspan="3">Autumn</td>
+          <td>Winter</td>
+        </tr>
+
+        <tr>
+          <td>No</td>
+          <td>Name</td>
+          <td>Jan</td>
+          <td>Feb</td>
+          <td>Mar</td>
+          <td>Apr</td>
+          <td>May</td>
+          <td>Jun</td>
+          <td>Jul</td>
+          <td>Aug</td>
+          <td>Sep</td>
+          <td>Oct</td>
+          <td>Nov</td>
+          <td>Dec</td>
+        </tr>
+      </thead>
+
+      <tbody class="a">
+        <tr>
+          <td>1</td>
+          <td>Person</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Person</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Person</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+
+      <tfoot class="a">
+        <tr>
+          <td colspan="2">Monthly summary:</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+        </tr>
+
+        <tr>
+          <td colspan="2">Seasonal summary:</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+          <td>300</td>
+        </tr>
+
+        <tr>
+          <td colspan="2">Yearly summary:</td>
+          <td colspan="12">3600</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2>Horizontal table!</h2>
+
+    <table>
+      <caption>
+        Yearly salary table
+      </caption>
+
+      <colgroup>
+        <col span="3" style="background-color: #382814" />
+
+        <col span="3" style="background-color: #433a25" />
+
+        <col span="3" style="background-color: #5d4b32" />
+      </colgroup>
+
+      <tr>
+        <td colspan="3">Table name</td>
+        <td>Person</td>
+        <td>Person</td>
+        <td>Person</td>
+        <td>Monthly</td>
+        <td>Seasonal</td>
+        <td rowspan="13">Yearly</td>
+      </tr>
+
+      <tr>
+        <td rowspan="12">2023</td>
+        <td rowspan="2">Winter</td>
+        <td>Jan</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+        <td rowspan="2">600</td>
+      </tr>
+
+      <tr>
+        <td>Feb</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3">Spring</td>
+        <td>Mar</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+        <td rowspan="3">900</td>
+      </tr>
+
+      <tr>
+        <td>Apr</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+      </tr>
+
+      <tr>
+        <td>May</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3">Summer</td>
+        <td>Jun</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+        <td rowspan="3">900</td>
+      </tr>
+
+      <tr>
+        <td>Jul</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+      </tr>
+
+      <tr>
+        <td>Aug</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+      </tr>
+
+      <tr>
+        <td rowspan="3">Autumn</td>
+        <td>Sep</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+        <td rowspan="3">900</td>
+      </tr>
+
+      <tr>
+        <td>Oct</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+      </tr>
+
+      <tr>
+        <td>Nov</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+      </tr>
+
+      <tr>
+        <td>Winter</td>
+        <td>Dec</td>
+        <td>100</td>
+        <td>100</td>
+        <td>100</td>
+        <td>300</td>
+        <td>300</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+td,
+caption {
+  text-align: center;
+}
+
+table,
+td,
+tr,
+caption {
+  border: 3px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  color: #f7efd2;
+}
+
+caption {
+  border-bottom: none;
+  background-color: #291909;
+}
+
+table {
+  width: 100%;
+}
+
+thead.a {
+  background-color: #382814;
+}
+
+tbody.a {
+  background-color: #433a25;
+}
+
+tfoot.a {
+  background-color: #5d4b32;
+}

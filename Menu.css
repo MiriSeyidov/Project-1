@@ -1,0 +1,25 @@
+body {
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+  background-color: #492201;
+}
+
+a.Menu {
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  display: inline-block;
+}
+
+a.Menu:hover {
+  background-color: #7c3f00;
+}
+
+h1,
+h2 {
+  color: #3e1c00;
+}
+
+
